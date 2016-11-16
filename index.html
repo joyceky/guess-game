@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guess Game</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js" defer></script>
+  </head>
+  <body>
+    <div class="container center">
+      <div class="row center red">
+        <p id="dynamic_text">
+          Welcome to the Guessing Game! I'm thinking of a number between 1 and 100. Can you guess what number I'm thinking of?
+        </p>
+      </div>
+      <div class="row center blue">
+        <label for="text_input">Your Guess:</label>
+        <input id="guess_input" type="text" name="text_input" value="">
+      </div>
+      <div class="row center yellow">
+        <button id="guess_button" class="btn waves-effect waves-light" type="submit" name="action">Submit
+       </button>
+      </div>
+    </div>
+  </body>
+</html>
